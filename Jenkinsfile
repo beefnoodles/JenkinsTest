@@ -5,7 +5,9 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'pwd'
-                sh 'ls /home'
+                sh 'ls /'
+                sh 'type java'
+                sh 'ls /var/jenkins_home/workspace'
             }
         }
     }
